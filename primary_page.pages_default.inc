@@ -158,32 +158,32 @@ function primary_page_default_page_manager_pages() {
     $pane->pid = 'new-3';
     $pane->panel = 'left';
     $pane->type = 'views';
-    $pane->subtype = 'pp_cck_descriptions';
+    $pane->subtype = 'security_pp_tax';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
       'use_pager' => 0,
-      'nodes_per_page' => '1',
+      'nodes_per_page' => '10',
       'pager_id' => '',
       'offset' => '0',
       'more_link' => 0,
       'feed_icons' => 0,
-      'panel_args' => 0,
+      'panel_args' => 1,
       'link_to_view' => 0,
       'args' => '',
       'url' => '',
-      'display' => 'page_3',
+      'display' => 'default',
       'context' => array(
-        0 => 'argument_term_1.name',
+        0 => '',
       ),
       'override_title' => 1,
-      'override_title_text' => 'Security',
+      'override_title_text' => 'Security Attributes',
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
-      'style' => 'rounded_corners',
+      'style' => 'stylizer:blue_back',
     );
     $pane->css = array();
     $pane->extras = array();
